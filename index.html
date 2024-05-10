@@ -5,10 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Table</title>
   <style>
+    body{
+      background-color: blanchedalmond;
+      text-align: center;
+      justify-content: space-between;
+      display: grid;
+    }
     td,
     th{
       padding: 15px;
       text-align: center;
+      border: solid;
+    }
+    .table{
+      border: thick double #32a1ce;
+      border-color: black;
     }
     .lunch{
       font-size: 25px;
@@ -19,7 +30,7 @@
   <h1>
     Time tabel
   </h1>
-  <table border="1">
+  <table class="table">
     <thead>
       <tr>
         <th>Day/Period</th>
